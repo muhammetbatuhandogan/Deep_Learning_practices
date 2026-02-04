@@ -1,0 +1,3 @@
+ 
+ 	
+We will first implement the standard GAT model and ensure the paper's methodology (The single-layer feedforward network for attention score calculation, The masked attention mechanism using LeakyReLU and softmax to normalize scores only over valid neighbors, The multi-head attention mechanism by concatenating or averaging outputs.) We will train and validate the baseline model. Then we will try to implement "Attention on Heads" module as our contribution: Instead of treating all heads equally, this small, secondary attention layer will learn which heads are more important for a given node, creating a weighted sum of the head outputs.
